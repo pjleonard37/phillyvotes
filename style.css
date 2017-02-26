@@ -1,0 +1,55 @@
+body {
+	background-color:#eeeeee;
+    font: Arial, Helvetica, sans-serif;
+}
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:650px;
+    width:15%;
+    float:left;
+    padding:5px;
+}
+#map {
+    width:60%;
+    float:left;
+    padding:10px;
+    position: block;
+    height: 650px;
+}
+#informationbar {
+    line-height:30px;
+    background-color:#eeeeee;
+    float:right;
+    height:650px;
+    width:20%;
+    padding:5px;
+}
+.legend {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: left;
+    line-height: 18px;
+    color: #555;
+}
+.legend h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Philadelphia Votes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+    <link rel="wards" type="application/json" href="./Political_Wards.geojson">
+  </head>
+  <body>
+    <div id="header">
+      <h1>Philadelphia Votes</h1>
+    </div>
+    <div id="nav">
+      <h2>Select Election</h2>
+      <select id="zoneSelect">
+        <option value="none">-- Select --</option>
+        <option value="2004">2004</option>
+        <option value="2008">2008</option>
+        <option value="2012">2012</option>
+        <option value="2016">2016</option>
+      </select>
+    </div>
+    <div id="map"></div>
+    <div id="informationbar">
+      <div id="info">
+        <h2 id="locationinfobox"></h2>
+        <p id="name"></p>
+        <p id="address"></p>
+        <p id="neighborhood"></p>
+        <p id="crime"></p>
+        <p id="crimedetails"></p>
+      </div>
+    </div>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="main.js"charset="utf-8"></script>
+  </body>
+</html>
