@@ -7,7 +7,7 @@ var mapTiles = L.tileLayer('https://api.tiles.mapbox.com/v4/pjleonard37.mal9bi3m
 });
 var map = L.map('map').setView([39.9500, -75.1667], 13);
 //var crimepoints;
-//var geojson;
+var geojson;
 
 // Pull in crime data from Philly Gov
 // function crimeRequest(requestpolygon, geography){
